@@ -35,11 +35,10 @@ flex-wrap: wrap;
   object-fit: contain;
   mix-blend-mode: normal;
   cursor: pointer;
-
 }
+/* image, note to self not time name it image */
 
 
-/* Call-to-action container */
 .cta, .parent {
   max-width: 50ch;
   margin: auto;
@@ -50,10 +49,10 @@ flex-wrap: wrap;
   cursor: pointer;
   transition: 0.3s;
   transform: translateY(-0.5%)
-
 }
+/* blue box that everything is in */
 
-/* Call to Action "button" */
+
 .cta, .parent :visited {
   font-family: 'Oswald', sans-serif;
   padding: 0.5rem;
@@ -66,15 +65,16 @@ cursor: pointer;
 transition: 0.2s;
 transform: translateY(-0.5%)
 }
+/* action */
 
 
-/* Hover state */
 .cta , .parent :hover {
 cursor: pointer;
 transition: 0.2s;
 transform: translateY(-0.5%);
 box-shadow: 0 3px 10px 0 #aaa;
 }
+/* The "hover" however it's not working */
 
 button{
   background-color: transparent;
@@ -82,4 +82,4 @@ button{
   justify-content: center;
 display: flex;
 }
-
+/*button */
