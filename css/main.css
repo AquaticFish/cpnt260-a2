@@ -1,0 +1,77 @@
+/* Body text */
+body {
+  font-family: 'Source Sans 3', sans-serif;
+  margin: auto;
+  font-size: 14px;
+  padding: 4rem;
+  font-weight: normal;
+  text-align: start;
+  border-radius: 1rem;
+  background-color:#141a32;
+  display: flex;
+  justify-content: center;
+  min-height: fit-content;
+}
+
+h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.img {
+flex-wrap: wrap;
+}
+
+.card {
+  max-width: 50ch;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 37px auto 0;
+  display: block;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 1rem;
+  width: 50ch;
+  object-fit: contain;
+  mix-blend-mode: normal;
+}
+
+/* Call-to-action container */
+.cta {
+  box-shadow: 0.07rem 0.3rem 0.5rem -0.05rem rgba(0, 0, 0, 0.45);
+  max-width: 50ch;
+  margin: auto;
+  margin-top: 5rem;
+  padding: 2rem;
+  background-color: hsl(70, 40%, 66%);
+  border-radius: 1rem;
+}
+
+/* Call to Action "button" */
+.cta , .cta :visited {
+  font-family: 'Oswald', sans-serif;
+  padding: 0.5rem;
+  margin: auto;
+color: hsl(148, 100%, 93%);
+background-color: hsl(256, 68%, 23%);
+text-decoration: none;
+border-radius: 1rem;
+cursor: pointer;
+transition: 0.2s;
+transform: translateY(-0.5%)
+}
+
+/* Hover state */
+.cta , .img :hover {
+cursor: pointer;
+transition: 0.2s;
+transform: translateY(-0.5%);
+}
+
+button{
+  background-color: transparent;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
