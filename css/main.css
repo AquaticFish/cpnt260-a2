@@ -1,4 +1,4 @@
-/* Body text */
+
 body {
   font-family: 'Source Sans 3', sans-serif;
   margin: auto;
@@ -11,6 +11,7 @@ body {
   display: flex;
   justify-content: center;
   min-height: fit-content;
+  color: hsl(148, 100%, 93%);
 }
 
 h3{
@@ -33,21 +34,27 @@ flex-wrap: wrap;
   width: 50ch;
   object-fit: contain;
   mix-blend-mode: normal;
+  cursor: pointer;
+
 }
 
+
 /* Call-to-action container */
-.cta {
-  box-shadow: 0.07rem 0.3rem 0.5rem -0.05rem rgba(0, 0, 0, 0.45);
+.cta, .parent {
   max-width: 50ch;
   margin: auto;
   margin-top: 5rem;
   padding: 2rem;
-  background-color: hsl(70, 40%, 66%);
+  background-color:  hsl(256, 68%, 23%);
   border-radius: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  transform: translateY(-0.5%)
+
 }
 
 /* Call to Action "button" */
-.cta , .cta :visited {
+.cta, .parent :visited {
   font-family: 'Oswald', sans-serif;
   padding: 0.5rem;
   margin: auto;
@@ -60,18 +67,19 @@ transition: 0.2s;
 transform: translateY(-0.5%)
 }
 
+
 /* Hover state */
-.cta , .img :hover {
+.cta , .parent :hover {
 cursor: pointer;
 transition: 0.2s;
 transform: translateY(-0.5%);
+box-shadow: 0 3px 10px 0 #aaa;
 }
 
 button{
   background-color: transparent;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  justify-content: center;
+display: flex;
 }
-
-
-
 
