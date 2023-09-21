@@ -5,6 +5,7 @@ Hello
 <strong>Course title;</strong> CPNT 260
 <strong>Assignment name;</strong> single card
 <strong>Author name;</strong> Dorothy Nguyen
+<strong> Github page;</strong> https://aquaticfish.github.io/cpnt260-a2/
 
 <h2>Above and Beyond<h2>
 <strong> object-fit: contain;</strong> line 35
